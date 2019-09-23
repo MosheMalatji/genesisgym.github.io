@@ -1,0 +1,168 @@
+/*
+ISAT
+Author:Moshe Malatji
+Filename:Style.css
+ID:9411205311087
+*/
+
+/*This css script is to be used on all pages*/
+
+/*General Style*/
+/*backpage*/
+body {
+	background-color:black;
+	font-family:Century Gothic;
+	color: black;
+}
+
+#navigation
+{
+height:27px;
+width:700px;
+margin:0px 128px 0px 0px;
+
+}
+div.main 
+{
+	background-color:white;
+	width:1250px;
+	margin: 0 auto;
+}
+
+ul{list-style:none;}
+#listcolor{}
+
+/* banner contains logo and navigation panel*/
+div.banner
+{
+	color:black;
+	background-color:white;
+	border-bottom:2px solid black;
+	padding:0.5em
+}
+/* Contains logo and page name*/
+div.MainHeading
+{
+background-color:#006699;
+color:white;
+margin:0 auto;
+text-align:center;
+}
+
+/*Genesis logo*/
+#logo {font-style:oblique;font-size:37px;}
+
+#symbol{font-size:46px; font-weight:bold; color:gray;}
+
+#subFont {font-size:20px;}
+
+
+
+div.footer
+{
+	float:bottom;
+	color:White;
+	background-color:#006699;
+	border-top:2px solid gray;
+	text-align:center;
+	margin-top:25em;
+	padding-bottom:0.1em;
+	height:40px;
+	font-size:15px;
+	margin-top:0%;
+}
+
+h1,h2
+{
+text-align:center;
+line-height:0.1;
+color:#3399cc;
+}
+
+h2.price{ color:#333366}
+
+h3{color:#000033}
+
+img
+{ 
+	margin:10px 20px 10px 130px;
+	width:80%;
+	height:50%;
+	opacity:0.1em;
+}
+/*End General Style*/
+
+
+
+/*---------------------------------------------------------------*/
+/*style for three divs in on container*/
+div.container
+{
+	padding:1%;
+	height:200px;
+	border:1px solid white;
+	width:1220px;
+
+ }
+ 
+div.left 
+{ 
+float:left; 
+width:20%; 
+min-width:22%; 
+margin-left:5%;
+border:2px solid gray;
+padding:0.5%;
+
+}
+
+div.middle
+{ 
+float:left; 
+width:20%; 
+min-width:22%; 
+margin-left:10%; 
+border:2px solid gray;
+padding:0.5%;
+
+}
+
+div.right { 
+float:left; 
+width:20%; 
+min-width:22%;  
+margin-left:10%;
+border:2px solid gray;
+padding:0.5%;
+
+}
+/*---------------------------------------------------------------*/
+
+div.bgimg
+{
+background-image:url("../imgs/imgHome.jpg");
+height:250px;
+text-align:center;
+line-height:0.1;
+color:#000033;
+}
+
+div.paragraph
+{
+text-align:center;
+margin:1px 10px 0px 1 0px;
+}	
+
+div.SocialIcons
+{
+float:left;
+margin-left:-60px;
+}
+
+#social
+{
+font-size:20px;
+height:35px;
+width:30px;
+float:left;
+}

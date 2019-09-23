@@ -1,0 +1,39 @@
+<html>
+	<head>
+      <title>M&S Burgers</title>
+	  
+	  <link type = "text/css" rel = "stylesheet" href = "ContactUs.css"/>
+	</head>
+	
+<body>
+<div class=main>
+	<div class = "topmenu">
+		<H1>M&S Burgers</H1>
+		<marquee> I love you Sharon  </marquee>	
+		<a href="#Home.html"> Home </a> | <a href> About Us </a> | <a href> Menu </a> | <a href> Contact </a> |
+	</div>
+
+	
+		<div class = "ContactUs">
+		<h2>Send us a message</h2>
+		<form name= "frmContactUs">
+		<label> Name</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" placeholder = "Name" name = "txtName"/><br><br>
+		<label> Surname</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" placeholder = "Surname" name = "txtSurname"/><br><br>
+		<label> Email</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" placeholder = "You Email Address" name = "txtEmail"/><br><br>
+		<label> Confirm Email</label>&nbsp;<input type="text" placeholder = "Confirm your email address" name = "txtConfirm"/><br><br>
+		<textarea rows = "3" cols = 40" name = "lstDisplay" placeholder = "Type your message here..." /></textarea><br><br>
+		<input type = "Button" value="OK" onclick = "send()" method="post"
+		action="mailto:info@Genesis.co.za?subject=info"/>&nbsp;
+		<input type = "reset" value = "Clear" />
+		</form>
+		</div>
+	
+
+	
+<!--Footer division-->
+	<div class ="footer">
+	<p> 2016 &copy; Moshe Malatji.&nbsp; All rights reserved. &nbsp; www.genisis.co.za</p>
+	</div>
+</div>
+</body>
+</html>

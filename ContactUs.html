@@ -1,0 +1,97 @@
+<html>
+
+<head>
+<!-- Request CSS script-->
+<title> Genesis Fitness - Contact Us </title>
+<script type = "text/javascript" src = "Javascript/ContactUs.js"></script>
+<link type = "text/css" rel = "stylesheet" href = "css/Style.css"/>
+<link type = "text/css" rel = "stylesheet" href = "css/ContactUs.css"/>
+
+</head>
+<body>
+
+<div class = "main">
+		<div class = "banner"  >
+		<!--logo-->
+		 <font id = "symbol">&Omega;</font><font id="logo">  GENISIS FITNESS CLUB</font> 
+		 <!--Navigation panel-->
+		 <img id = "navigation" src = "imgs\nav.bmp" usemap = "#nav"/>
+	<map name ="nav">
+	<area shape="rect" coords="0,0,140,27" href="home.html"/>
+	<area shape="rect" coords="141,0,257,27" href = "About_Us.html"/>
+	<area shape ="rect" coords="258,0,,386,27" href = "Services.html"/>
+	<area shape = "rect" coords = "387,0,531,25" href = "Health_Fitness.html"/>
+	<area shape = "rect" coords = "533,0,700,27" href = "#ContactUs.html"/>
+	</map>
+	
+		
+	</div>
+	
+	
+	<div class = MainHeading>
+	<marquee>
+	&Omega; &nbsp;We want to hear from you.&nbsp; &Omega;
+	</marquee>
+	<hr color = "black">
+	<font id = "symbol">&Omega;</font><font id = "subFont"><br>Contact Us</font>
+	<!--info division consisting of two division, left and right-->
+	</div>
+	<img src = "imgs\Runners.jpg"/>
+	<h1> ----- We would love to hear from you -----</h1><br>
+	<div class = "frmContainer">
+		<div class="left-side" >
+			<ul>
+			<li class = "label"> Facebook
+			<li > Genesis Fitness SA
+			<li class = "label"> Twitter
+			<li> @GFit_ZA
+			<li class = "label">Google +
+			<li> GENISIS ZA
+			</ul>
+			<div class = "SocialIcons">
+			
+			<a href= "www.gmail.com" id="social"><img  src="imgs\g+.png"/></a>
+			<a href= "www.facebook.com" id="social" ><img src="imgs\facebook.png"/></a>
+			<a id = "social" href = "www.twitter.com"><img  src ="imgs\twitter.png"/></a>
+			<a id = "social" href = #><img  src ="imgs\rss.png"/></a>
+		</div>
+		</div>
+		
+		<div class = "ContactUs">
+		<h2>Send us a message</h2>
+		<form name= "frmContactUs">
+		<label> Name </label><input type="text" placeholder = "Name" name = "txtName"/><br><br>
+		<label> Surname</label><input type="text" placeholder = "Surname" name = "txtSurname"/><br><br>
+		<label> Email</label><input type="text" placeholder = "You Email Address" name = "txtEmail"/><br><br>
+		<label> Confirm Email</label><input type="text" placeholder = "Confirm your email address" name = "txtConfirm"/><br><br>
+		<textarea rows = "3" cols = 40" name = "lstDisplay" placeholder = "Type your message here..." /></textarea><br><br>
+		<input type = "Button" value="OK" onclick = "send()" method="post"
+		action="mailto:info@Genesis.co.za?subject=info"/>&nbsp;
+		<input type = "reset" value = "Clear" />
+		</form>
+		</div>
+		
+		<div class="right-side" >
+			<ul>
+			<li class = "label"> Email
+			<li>	info@Genesis.co.za
+			<li class = "label">Telephone
+			<li> 011 962 6911
+			<li class = "label">Fax
+			<li> 011 358 4568
+			</ul>
+			
+		</div>
+
+	</div>
+
+	<!--Footer division-->
+	<div class ="footer">
+	<p> 2016 &copy; Moshe Malatji.&nbsp; All rights reserved. &nbsp; www.genisis.co.za</p>
+	</div>
+	
+</div>
+
+</body>
+
+</html>

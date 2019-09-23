@@ -1,0 +1,34 @@
+div.ContactUs
+{
+padding:1em;
+float:center;
+background-color:#6699ff;
+text-align:center;
+height:75%;
+}
+body 
+{
+	
+	font-family:Century Gothic;
+	color: black;
+	background-color:black;
+}
+div.topmenu 
+{
+text-align:center;
+background-color:white;
+}
+
+div.footer
+{
+	float:bottom;
+	color:black;
+	background-color:white;
+	border-top:2px solid gray;
+	text-align:center;
+	margin-top:25em;
+	padding-bottom:0.1em;
+	height:40px;
+	font-size:15px;
+	margin-top:0%;
+}

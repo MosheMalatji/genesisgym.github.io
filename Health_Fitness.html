@@ -1,0 +1,112 @@
+<html>
+
+<head>
+<!-- Request CSS script-->
+<title> Genesis Fitness - Health & Fitness </title>
+<link type = "text/css" rel = "stylesheet" href = "css/Style.css"/>
+<link type = "text/css" rel = "stylesheet" href = "css/H_S.css"/>
+<script src ="JavaScript\Calculator.js" type = "text/javascript"></script>
+</head>
+<body>
+
+<div class = "main">
+	
+	<div class = "banner"  >
+		<!--logo-->
+		 <font id = "symbol">&Omega;</font><font id="logo">  GENISIS FITNESS CLUB</font> 
+		 <!--Navigation panel-->
+		 <img id = "navigation" src = "imgs\nav.bmp" usemap = "#nav"/>
+	<map name ="nav">
+	<area shape="rect" coords="0,0,140,27" href="home.html"/>
+	<area shape="rect" coords="141,0,257,27" href = "About_Us.html"/>
+	<area shape ="rect" coords="258,0,,386,27" href = "Services.html"/>
+	<area shape = "rect" coords = "387,0,531,25" href = "#Health_Fitness.html"/>
+	<area shape = "rect" coords = "533,0,700,27" href = "ContactUs.html"/>
+	</map>
+	</div>
+	
+	<div class = MainHeading>
+	<marquee>
+	&Omega; &nbsp;Try Our Fitness Calculator.&nbsp; &Omega;
+	</marquee>
+	<hr color = "black">
+	<font id = "symbol">&Omega;</font><font id = "subFont"><br>Health And Fitness </font>
+	<!--info division consisting of two division, left and right-->
+	</div>
+	
+	<div class="paragraph">
+			<h2> How Fit Are You </h2>
+			<p>So are you normal weight? Overweight? Underweight? A good way to figure this out is with the Body Mass
+			Index, or BMI. This is a way of measuring weight<br> based on a calculation that estimates weight as it relates to
+			height. As noted above, there are more accurate ways to measure whether a person<br> is overweight, but BMI
+			allows researchers a quick and inexpensive way to compare weights of different people easily. It also lets you
+			compare yourself to the findings of researchers against what is considered a healthy weight.</p>
+	</div>
+	
+	<div class="paragraph">
+			<h2> Formulae Used To Calculate BMI </h2>
+			<p>
+			<ul>
+			<li> Heart beats per minute refers to your pulse and it is calculated using HRmax = 205.8 - (0.685 * age)<br><br>
+			<li> HRrest = heart beats per minute at rest.<br><br>
+			<li> VO2max is the maximal oxygen uptake. It is generally considered the best indicator of a person's<br>
+			cardiovascular fitness and aerobic endurance and it is calculated using, VO2max = 15 * HRmax / HRrest
+			</ul>
+			</p>
+	</div>
+	<br>
+	<div class = "Cal_Container">
+		<div class="side">
+		<p>
+	
+		</p>
+		</div>
+		
+		<div class = "calculate">
+		<h1> Fitness Calculator </h1>
+		<form name = "frmCalculator">
+		<textarea rows = "3" cols = 40" name = "lstDisplay" readonly = "true"/></textarea><br><br>
+		
+		<div id = "labels">
+			<label>Weight</label><br><br>
+			<label>Height</label><br><br>
+			<label>Gender</label><br><br>
+			<label>Age</label><br><br>
+			<label>HRrest</label><br><br>
+		</div>
+	
+		<div id = "controls">
+			<input type = "text"  name ="txtWeight" placeholder ="Weight"><br><br>
+			<input type = "text"  name = "txtHeight" placeholder = "Height"><br><br>
+			<select size = "1" name ="cboGender" >
+				<option value = "-1">--Male or Female</option>
+				<option value = "1">Male</option>
+				<option value = "2">Female</option>
+			</select><br><br>
+			<input type = "text" name ="txtAge" placeholder = "Age"><br><br>
+			<input type = "text" name ="txtHR" placeholder = "Heart Beat per min. at rest"><br><br>
+			<input type = "button" value = "Calculate"  onclick="calculate()"/> &nbsp;
+			<input type = "reset" value = "Clear" />
+		</div>
+	
+		</form>
+		</div>
+		
+		<div class="side">
+		<p>
+
+		</p>
+		</div>
+
+	</div>
+
+	<!--Footer division-->
+	<div class ="footer">
+	<p> 2016 &copy; Moshe Malatji.&nbsp; All rights reserved. &nbsp; www.genisis.co.za</p>
+	</div>
+	
+</div>
+
+</body>
+
+</html>
